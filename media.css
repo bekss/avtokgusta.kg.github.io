@@ -1,0 +1,72 @@
+h3{
+/*	color: red;
+	position: absolute;
+	transform: translateY(-300%);
+	top: 50%;
+	text-align: center;
+	text-shadow: 10px 10px  25px #323;
+	*/
+}
+.carousel-inner h3 {
+	font-size: 20px;
+	padding: 15px;
+}
+.carousel-inner p{
+	font-size: 16px;
+	padding: 10px;
+}
+@media all and (max-width: 1024px){
+	
+}
+@media all and (max-width: 500px){
+	/*Здесь находиться размер карты */
+}
+@media all and ( max-width: 320px){
+	/*.tab{
+	width: 1%;
+	}*/
+}
+@media all and (max-width: 768px) {
+	.carousel-caption {
+		bottom: 10%;
+	}
+	.carousel-inner p{
+		font-size: 18px;
+	}
+	.carousel-inner  p{
+		font-size: 14px;
+	}
+.map-responsive iframe{
+    height:300%;
+    width:100%;
+    padding-top: 5px;
+}
+}
+/*экран при 600пкс */
+@media all and (max-width: 600px){
+
+	.href{ /*стрелки слайда */
+		transform: translateY(-100px);
+	}
+}
+@media all and (max-width: 375px){
+	.carousel-inner {
+		height: 310px;
+	}
+	.href{
+		transform: translateY(-160px);
+	}
+	.carousel .carousel-inner  img{
+	transform: translateY(-18%);  /*подтягивает изображение вверх 35%*/
+}
+	.carousel-inner{
+		height: 200px;
+	}
+	
+
+}
+@media all and (max-width: 414px){
+	
+}
+
+
